@@ -60,6 +60,9 @@ bldbgmag=${bld}${bgmag}    #  Magenta        - Bold Background
 bldbgcya=${bld}${bgcya}    #  Cyan           - Bold Background
 bldbgwhi=${bld}${bgwhi}    #  White          - Background
 
+<<<<<<< HEAD
 line="================================================================================"
 
+=======
+>>>>>>> vendor: Rainbow unicorn puke [2/2]
 fi

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# colors.mk: veriables for colored text in makefiles
+# colors: veriables for colored text in scripts
 # Copyright (C) 2015 PAC-Roms Project
 #
 # This program is free software; you can redistribute it and/or
@@ -18,48 +18,48 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 #
 
-ifneq ($(BUILD_WITH_COLORS),0)
+if [ ! "$BUILD_WITH_COLORS" = "0" ]; then
 
-ESC=$(shell echo -e "\033")
-RST=$(shell echo -e "\033[0m")
-BLD=$(shell echo -e "\033[1m")
+esc="\033"
+bld="${esc}[1m"            #  Bold
+rst="${esc}[0m"            #  Reset
 
-BLA=$(shell echo -e "\033[30m")
-RED=$(shell echo -e "\033[31m")
-GRN=$(shell echo -e "\033[32m")
-YLW=$(shell echo -e "\033[33m")
-BLU=$(shell echo -e "\033[34m")
-MAG=$(shell echo -e "\033[35m")
-CYN=$(shell echo -e "\033[36m")
-WHI=$(shell echo -e "\033[37m")
+bla="${esc}[30m"           #  Black          - Text
+red="${esc}[31m"           #  Red            - Text
+grn="${esc}[32m"           #  Green          - Text
+ylw="${esc}[33m"           #  Yellow         - Text
+blu="${esc}[34m"           #  Blue           - Text
+mag="${esc}[35m"           #  Magenta        - Text
+cya="${esc}[36m"           #  Cyan           - Text
+whi="${esc}[37m"           #  Light Grey     - Text
 
-BLDBLA=$(shell echo -e "\033[1m\033[30m")
-BLDRED=$(shell echo -e "\033[1m\033[31m")
-BLDGRN=$(shell echo -e "\033[1m\033[32m")
-BLDYLW=$(shell echo -e "\033[1m\033[33m")
-BLDBLU=$(shell echo -e "\033[1m\033[34m")
-BLDMAG=$(shell echo -e "\033[1m\033[35m")
-BLDCYA=$(shell echo -e "\033[1m\033[36m")
-BLDWHI=$(shell echo -e "\033[1m\033[37m")
+bldbla=${bld}${bla}        #  Dark Grey      - Text
+bldred=${bld}${red}        #  Red            - Bold Text
+bldgrn=${bld}${grn}        #  Green          - Bold Text
+bldylw=${bld}${ylw}        #  Yellow         - Bold Text
+bldblu=${bld}${blu}        #  Blue           - Bold Text
+bldmag=${bld}${mag}        #  Magenta        - Bold Text
+bldcya=${bld}${cya}        #  Cyan           - Bold Text
+bldwhi=${bld}${whi}        #  White          - Text
 
-BGBLA=$(shell echo -e "\033[40m")
-BGRED=$(shell echo -e "\033[41m")
-BGGRN=$(shell echo -e "\033[42m")
-BGYLW=$(shell echo -e "\033[43m")
-BGBLU=$(shell echo -e "\033[44m")
-BGMAG=$(shell echo -e "\033[45m")
-BGCYN=$(shell echo -e "\033[46m")
-BGWHI=$(shell echo -e "\033[47m")
+bgbla="${esc}[40m"         #  Black          - Background
+bgred="${esc}[41m"         #  Red            - Background
+bggrn="${esc}[42m"         #  Green          - Background
+bgylw="${esc}[43m"         #  Yellow         - Background
+bgblu="${esc}[44m"         #  Blue           - Background
+bgmag="${esc}[45m"         #  Magenta        - Background
+bgcya="${esc}[46m"         #  Cyan           - Background
+bgwhi="${esc}[47m"         #  Light Grey     - Background
 
-BLDBGBLA=$(shell echo -e "\033[1m\033[40m")
-BLDBGRED=$(shell echo -e "\033[1m\033[41m")
-BLDBGGRN=$(shell echo -e "\033[1m\033[42m")
-BLDBGYLW=$(shell echo -e "\033[1m\033[43m")
-BLDBGBLU=$(shell echo -e "\033[1m\033[44m")
-BLDBGMAG=$(shell echo -e "\033[1m\033[45m")
-BLDBGCYA=$(shell echo -e "\033[1m\033[46m")
-BLDBGWHI=$(shell echo -e "\033[1m\033[47m")
+bldbgbla=${bld}${bgbla}    #  Dark Grey      - Background
+bldbgred=${bld}${bgred}    #  Red            - Bold Background
+bldbggrn=${bld}${bggrn}    #  Green          - Bold Background
+bldbgylw=${bld}${bgylw}    #  Yellow         - Bold Background
+bldbgblu=${bld}${bgblu}    #  Blue           - Bold Background
+bldbgmag=${bld}${bgmag}    #  Magenta        - Bold Background
+bldbgcya=${bld}${bgcya}    #  Cyan           - Bold Background
+bldbgwhi=${bld}${bgwhi}    #  White          - Background
 
-LINE=$(shell echo -e "================================================================================")
+line="================================================================================"
 
-endif
+fi
