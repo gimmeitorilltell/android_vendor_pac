@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # build-pac.sh: the overarching build script for the ROM.
-# Copyright (C) 2015 PAC-Roms Project
+# Copyright (C) 2015 The PAC-ROM Project
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License
@@ -62,7 +62,7 @@ usage() {
 
 # PAC version
 export PAC_VERSION_MAJOR="LP-MR1"
-export PAC_VERSION_MINOR="Beta-1"
+export PAC_VERSION_MINOR="Beta-2"
 export PAC_VERSION_MAINTENANCE="Unofficial"
 # Acceptable maintenance versions are; Stable, Official, Nightly or Unofficial
 
@@ -333,11 +333,11 @@ fi
 
 # Start compilation
 if [ "$opt_only" -eq 1 ]; then
-    echo -e "${bldcya}Starting compilation: ${bldgrn}Only will be built Boot Image${rst}"
+    echo -e "${bldcya}Starting compilation: ${bldgrn}Building Boot Image only${rst}"
     echo ""
     make -j"$opt_jobs" bootimage
 elif [ "$opt_only" -eq 2 ]; then
-    echo -e "${bldcya}Starting compilation: ${bldgrn}Only will be built Recovery Image${rst}"
+    echo -e "${bldcya}Starting compilation: ${bldgrn}Building Recovery Image only${rst}"
     echo ""
     make -j"$opt_jobs" recoveryimage
 else
