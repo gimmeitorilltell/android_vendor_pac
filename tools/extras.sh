@@ -183,8 +183,14 @@ case $device in
         PATCH=tenderloin_allow-devices-to-specify-driver-delay
         FOLDER=hardware/libhardware_legacy
         patch_it #add this function call for each patch
-        #invensense: allow other devices to build a specific sensor
-        cherries+=(82223_CM)
+        # tenderloin_packagemanager-allow-install-to-complete
+        PATCH=tenderloin_packagemanager-allow-install-to-complete
+        FOLDER=frameworks/base
+        patch_it #add this function call for each patch
+        # tenderloin_ART-Hack-to-get-working-on-TP
+        PATCH=tenderloin_ART-Hack-to-get-working-on-TP
+        FOLDER=art
+        patch_it #add this function call for each patch
         #sepolicy: add a domain for lvm
         cherries+=(82660_CM)
         #art: allow devices to opt out of GAP check
