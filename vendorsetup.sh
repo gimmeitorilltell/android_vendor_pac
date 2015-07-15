@@ -114,8 +114,7 @@ add_lunch_combo pac_honami-userdebug
 add_lunch_combo pac_huashan-userdebug
 add_lunch_combo pac_pollux-userdebug
 add_lunch_combo pac_pollux_windy-userdebug
-add_lunch_combo pac_taoshan-userdebug
-add_lunch_combo pac_yuga-userdebug
+add_lunch_combo pac_sirius-userdebug
 # Sony Ericsson
 add_lunch_combo pac_anzu-userdebug
 add_lunch_combo pac_coconut-userdebug

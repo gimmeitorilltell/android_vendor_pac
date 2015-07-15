@@ -56,6 +56,9 @@
   <device name="serranodsdd"/>
   <device name="serranoltexx"/>
   <device name="shamu"/>
+  <!-- <device name="sprout4"/> -->
+  <!-- <device name="sprout8"/> -->
+  <!-- <device name="sirius"/> -->
   <device name="spyder"/>
   <device name="titan"/>
   <device name="v500"/>
