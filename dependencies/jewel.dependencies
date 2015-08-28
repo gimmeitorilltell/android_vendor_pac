@@ -1,14 +1,14 @@
 [
     {
         "remote":       "ss",
-        "repository":   "android_device_htc_t6-common",
-        "target_path":  "device/htc/t6-common",
+        "repository":   "android_device_htc_jewel",
+        "target_path":  "device/htc/jewel",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_htc_t6",
-        "target_path":  "device/htc/t6",
+        "repository":   "android_device_htc_s4-common",
+        "target_path":  "device/htc/s4-common",
         "revision":     "pac-5.1"
     },
     {
@@ -25,14 +25,14 @@
     },
     {
         "remote":       "ss",
-        "repository":   "android_kernel_htc_msm8960",
-        "target_path":  "kernel/htc/msm8960",
+        "repository":   "android_hardware_qcom_fm",
+        "target_path":  "hardware/qcom/fm",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_hardware_qcom_fm",
-        "target_path":  "hardware/qcom/fm",
+        "repository":   "android_kernel_htc_msm8960",
+        "target_path":  "kernel/htc/msm8960",
         "revision":     "pac-5.1"
     },
     {

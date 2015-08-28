@@ -1,20 +1,20 @@
 [
     {
         "remote":       "ss",
-        "repository":   "android_device_htc_t6-common",
-        "target_path":  "device/htc/t6-common",
+        "repository":   "android_device_motorola_thea",
+        "target_path":  "device/motorola/thea",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_htc_t6",
-        "target_path":  "device/htc/t6",
+        "repository":   "android_device_motorola_msm8226-common",
+        "target_path":  "device/motorola/msm8226-common",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_htc_msm8960-common",
-        "target_path":  "device/htc/msm8960-common",
+        "repository":   "android_kernel_motorola_msm8226",
+        "target_path":  "kernel/motorola/msm8226",
         "revision":     "pac-5.1"
     },
     {
@@ -25,20 +25,14 @@
     },
     {
         "remote":       "ss",
-        "repository":   "android_kernel_htc_msm8960",
-        "target_path":  "kernel/htc/msm8960",
-        "revision":     "pac-5.1"
-    },
-    {
-        "remote":       "ss",
         "repository":   "android_hardware_qcom_fm",
         "target_path":  "hardware/qcom/fm",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "pic",
-        "repository":   "proprietary_vendor_htc",
-        "target_path":  "vendor/htc",
+        "repository":   "proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
         "revision":     "cm-12.1"
     }
 ]

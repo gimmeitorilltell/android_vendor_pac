@@ -1,14 +1,14 @@
 [
     {
         "remote":       "ss",
-        "repository":   "android_device_samsung_jfltexx",
-        "target_path":  "device/samsung/jfltexx",
+        "repository":   "android_device_samsung_d2att",
+        "target_path":  "device/samsung/d2att",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_device_samsung_jf-common",
-        "target_path":  "device/samsung/jf-common",
+        "repository":   "android_device_samsung_d2-common",
+        "target_path":  "device/samsung/d2-common",
         "revision":     "pac-5.1"
     },
     {
@@ -19,14 +19,14 @@
     },
     {
         "remote":       "ss",
-        "repository":   "android_hardware_samsung",
-        "target_path":  "hardware/samsung",
+        "repository":   "android_device_samsung_msm8960-common",
+        "target_path":  "device/samsung/msm8960-common",
         "revision":     "pac-5.1"
     },
     {
         "remote":       "ss",
-        "repository":   "android_kernel_samsung_jf",
-        "target_path":  "kernel/samsung/jf",
+        "repository":   "android_kernel_samsung_d2",
+        "target_path":  "kernel/samsung/d2",
         "revision":     "pac-5.1"
     },
     {
@@ -34,5 +34,11 @@
         "repository":   "proprietary_vendor_samsung",
         "target_path":  "vendor/samsung",
         "revision":     "cm-12.1"
+    },
+    {
+        "remote":       "ss",
+        "repository":   "android_hardware_samsung",
+        "target_path":  "hardware/samsung",
+        "revision":     "pac-5.1"
     }
 ]
