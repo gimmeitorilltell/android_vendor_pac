@@ -37,8 +37,7 @@ PRODUCT_COPY_FILES += vendor/pac/prebuilt/common/app/KernelAdiutor/KernelAdiutor
 
 # Additonal Packages
 PRODUCT_PACKAGES += \
-    OmniSwitch \
-    PACSetupWizard
+    OmniSwitch
 
 # PAC Overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pac/overlay/common
