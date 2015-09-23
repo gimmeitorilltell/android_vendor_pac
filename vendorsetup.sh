@@ -35,12 +35,7 @@ add_lunch_combo pac_d855-userdebug
 add_lunch_combo pac_e975-userdebug
 add_lunch_combo pac_e980-userdebug
 add_lunch_combo pac_hammerhead-userdebug
-add_lunch_combo pac_ls970-userdebug
-add_lunch_combo pac_ls980-userdebug
-add_lunch_combo pac_ls990-userdebug
 add_lunch_combo pac_mako-userdebug
-add_lunch_combo pac_p700-userdebug
-add_lunch_combo pac_p705-userdebug
 add_lunch_combo pac_v500-userdebug
 add_lunch_combo pac_vs980-userdebug
 # Motorola
