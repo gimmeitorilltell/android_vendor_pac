@@ -59,6 +59,7 @@
         <device FullName="One" CodeName="bacon"/>
     </vendor>
     <vendor Name="Samsung">
+        <device FullName="Galaxy Note (AT&amp;T)" CodeName="quincyatt"/>
         <device FullName="Galaxy Note 3 (International)" CodeName="hlte"/>
         <device FullName="Galaxy Note 3 (Sprint)" CodeName="hltespr"/>
         <device FullName="Galaxy Note 3 (T-Mobile)" CodeName="hltetmo"/>

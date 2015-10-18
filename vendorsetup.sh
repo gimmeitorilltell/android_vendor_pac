@@ -68,6 +68,7 @@ add_lunch_combo pac_manta-userdebug
 add_lunch_combo pac_n5100-userdebug
 add_lunch_combo pac_n5110-userdebug
 add_lunch_combo pac_n5120-userdebug
+add_lunch_combo pac_quincyatt-userdebug
 add_lunch_combo pac_s2ve-userdebug
 add_lunch_combo pac_s2vep-userdebug
 add_lunch_combo pac_serrano3gxx-userdebug
